@@ -9,7 +9,7 @@ BOARD_SUPER_PARTITION_SIZE := 13329498112
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8750-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/volkswagen
+DEVICE_PATH := device/oneplus/volkswagenc
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OP6135L1
@@ -29,4 +29,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/volkswagen/BoardConfigVendor.mk
+include vendor/oneplus/volkswagenc/BoardConfigVendor.mk

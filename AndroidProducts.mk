@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_volkswagen.mk
+    $(LOCAL_DIR)/lineage_volkswagenc.mk
