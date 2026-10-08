@@ -1,11 +1,10 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Nord 6 (CPH2793_16.0.5.1200(EX01)).
+## are from OnePlus Turbo 6 (PLU110_16.0.10.600(CN01)).
 
 # ACDB
 odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/tuna_mtp/acdb_cal.acdb
 odm/etc/acdbdata/FTM/acdb_cal.acdb
 odm/etc/acdbdata/MOS/acdb_cal.acdb
-odm/etc/acdbdata/VDF/acdb_cal.acdb
 odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/up_ve_enpuv5_ha.eai
 odm/etc/acdbdata/up_ve_enpuv5_hh.eai
@@ -145,21 +144,19 @@ odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/oplus_camera_preview_decision_config.json
 odm/etc/camera/config/oplus_preview_decision_params.json
+odm/etc/camera/config/pickref_params.xml
 odm/etc/camera/config/quick_visibility_white_list
+odm/etc/camera/config/sr_ext_res.bin
+odm/etc/camera/config/sr_params.xml
 odm/etc/camera/config/video_beauty_default_config
-odm/etc/camera/config/vwInFront
-odm/etc/camera/config/vwInMain
-odm/etc/camera/config/vwInWide
-odm/etc/camera/dng/ColorMatrix1_vwInMain.txt
-odm/etc/camera/dng/ColorMatrix1_vwInWide.txt
-odm/etc/camera/dng/ColorMatrix2_vwInMain.txt
-odm/etc/camera/dng/ColorMatrix2_vwInWide.txt
-odm/etc/camera/dng/D28HUESATMap_vwInMain.txt
-odm/etc/camera/dng/D28HUESATMap_vwInWide.txt
-odm/etc/camera/dng/D65HUESATMap_vwInMain.txt
-odm/etc/camera/dng/D65HUESATMap_vwInWide.txt
-odm/etc/camera/dng/ToneCurve_vwInMain.txt
-odm/etc/camera/dng/ToneCurve_vwInWide.txt
+odm/etc/camera/config/vwFront
+odm/etc/camera/config/vwMain
+odm/etc/camera/config/vwMono
+odm/etc/camera/dng/ColorMatrix1_vwMain.txt
+odm/etc/camera/dng/ColorMatrix2_vwMain.txt
+odm/etc/camera/dng/D28HUESATMap_vwMain.txt
+odm/etc/camera/dng/D65HUESATMap_vwMain.txt
+odm/etc/camera/dng/ToneCurve_vwMain.txt
 odm/etc/camera/facerestore/fr_models/BDET.bin
 odm/etc/camera/facerestore/fr_models/DB.bin
 odm/etc/camera/facerestore/fr_models/FS.bin
@@ -694,20 +691,20 @@ odm/lib64/camera/components/libcamxoemsatsoftwarefusionwrapper.so
 odm/lib64/camera/components/libcamxoemsatwrapper.so
 odm/lib64/camera/components/libopluscolorsensorwrapper.so
 odm/lib64/camera/awb_parameter_default.bin
-odm/lib64/camera/awb_parameter_vwInFront.bin
-odm/lib64/camera/awb_parameter_vwInMain.bin
-odm/lib64/camera/awb_parameter_vwInWide.bin
-odm/lib64/camera/com.qti.sensor.vwInFront.so
-odm/lib64/camera/com.qti.sensor.vwInMain.so
-odm/lib64/camera/com.qti.sensor.vwInWide.so
-odm/lib64/camera/com.qti.sensormodule.vwInFront.bin
-odm/lib64/camera/com.qti.sensormodule.vwInMain.bin
-odm/lib64/camera/com.qti.sensormodule.vwInMain_MP.bin
-odm/lib64/camera/com.qti.sensormodule.vwInWide.bin
+odm/lib64/camera/awb_parameter_vwFront.bin
+odm/lib64/camera/awb_parameter_vwMain.bin
+odm/lib64/camera/awb_parameter_vwMono.bin
+odm/lib64/camera/com.qti.sensor.vwFront.so
+odm/lib64/camera/com.qti.sensor.vwMain.so
+odm/lib64/camera/com.qti.sensor.vwMono.so
+odm/lib64/camera/com.qti.sensormodule.vwFront.bin
+odm/lib64/camera/com.qti.sensormodule.vwMain.bin
+odm/lib64/camera/com.qti.sensormodule.vwMain_MP.bin
+odm/lib64/camera/com.qti.sensormodule.vwMono.bin
 odm/lib64/camera/com.qti.sensorsocmap.socid_map.bin
-odm/lib64/camera/com.qti.tuned.bonito_vwInFront.bin
-odm/lib64/camera/com.qti.tuned.bonito_vwInMain.bin
-odm/lib64/camera/com.qti.tuned.bonito_vwInWide.bin
+odm/lib64/camera/com.qti.tuned.bonito_vwFront.bin
+odm/lib64/camera/com.qti.tuned.bonito_vwMain.bin
+odm/lib64/camera/com.qti.tuned.bonito_vwMono.bin
 odm/lib64/camera/com.qti.tuned.default.sun.bin
 odm/lib64/camera/libaecCustomParam_Cam0.bin
 odm/lib64/camera/libaecCustomParam_Cam1.bin
@@ -1211,16 +1208,13 @@ vendor/firmware/CAMERA_ICP_1.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 
 # Charger firmware
-odm/firmware/fastchg/24885/charging_hyper_mode_config.txt
-odm/firmware/fastchg/24885/charging_thermal_config_default.txt
-odm/firmware/fastchg/24885/silicon_x25_charging_hyper_mode_config.txt
+odm/firmware/fastchg/24816/charging_hyper_mode_config.txt
 odm/firmware/fastchg/bms_heating_config.txt
-odm/firmware/fastchg/silicon_x25_batt_dchg_ctrl_config_table.txt
-odm/firmware/fastchg/silicon_x25_batt_eis_config.txt
-odm/firmware/fastchg/silicon_x25_batt_si_loss_config_table.txt
-odm/firmware/fastchg/silicon_x25_bms_heating_config.txt
-odm/firmware/fastchg/silicon_x25_charging_thermal_config_default.txt
-odm/firmware/fastchg/silicon_x25_smart_chg_config_table.txt
+odm/firmware/fastchg/batt_dchg_ctrl_config_table.txt
+odm/firmware/fastchg/batt_eis_config.txt
+odm/firmware/fastchg/batt_si_loss_config_table.txt
+odm/firmware/fastchg/charging_thermal_config_default.txt
+odm/firmware/fastchg/smart_chg_config_table.txt
 
 # Display calibration data
 odm/etc/display/qdcm_calib_data_AA610_P_3_A0034_dsc_video_mode_panel.json
@@ -1511,8 +1505,7 @@ odm/etc/wifi/peach/regdb.bin
 odm/etc/wifi/peach/regdb_version
 odm/etc/wifi/qms_log_config
 odm/etc/wifi/sar-vendor-cmd.xml
-odm/etc/wifi/wcn7750/bdwlan.b0e
-odm/etc/wifi/wcn7750/bdwlan.b0i
+odm/etc/wifi/wcn7750/bdwlan.elf
 odm/etc/wifi/wcn7750/regdb.bin
 odm/etc/wifi/wifisar.cfg
 
