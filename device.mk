@@ -43,7 +43,7 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
-    OPlusWifiOverlayVolkswagen
+    OPlusWifiOverlayVolkswagenc
 
 # NFC
 PRODUCT_COPY_FILES += \
@@ -89,4 +89,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, device/oneplus/sm8750-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/volkswagen/volkswagen-vendor.mk)
+$(call inherit-product, vendor/oneplus/volkswagenc/volkswagenc-vendor.mk)

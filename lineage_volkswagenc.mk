@@ -7,14 +7,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from volkswagen device
-$(call inherit-product, device/oneplus/volkswagen/device.mk)
+# Inherit from volkswagenc device
+$(call inherit-product, device/oneplus/volkswagenc/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_volkswagen
-PRODUCT_DEVICE := volkswagen
+PRODUCT_NAME := lineage_volkswagenc
+PRODUCT_DEVICE := volkswagenc
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := CPH2793
