@@ -17,14 +17,14 @@ PRODUCT_NAME := lineage_volkswagenc
 PRODUCT_DEVICE := volkswagenc
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2793
+PRODUCT_MODEL := PLU110
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 16 BP2A.250605.015 1786096716265 release-keys" \
-    BuildFingerprint=OnePlus/CPH2793IN/OP6135L1:16/BP2A.250605.015/B.R4T2.4039bd9-1b18b4c-1b59a97:user/release-keys \
-    DeviceName=OP6135L1 \
-    DeviceProduct=CPH2793 \
-    SystemDevice=OP6135L1 \
-    SystemName=CPH2793
+    BuildDesc="qssi-user 16 BP2A.250605.015 1789095017597 release-keys" \
+    BuildFingerprint=OnePlus/PLU110/OP60F0L1:16/BP2A.250605.015/B.2752c3e-1a4346-182af7:user/release-keys \
+    DeviceName=OP60F0L1 \
+    DeviceProduct=PLU110 \
+    SystemDevice=OP60F0L1 \
+    SystemName=PLU110

@@ -1,0 +1,4 @@
+import /odm/etc/${ro.boot.prjname}/build.${ro.boot.hardware.revision}.prop
+
+# NFC
+persist.vendor.nfc.configFile_name=libnfc-tms_RF_EC2.conf_24816
