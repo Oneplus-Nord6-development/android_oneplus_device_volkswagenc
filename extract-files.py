@@ -38,6 +38,8 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'(fdSupport += )TRUE;', r'\1FALSE;'),
     'odm/etc/init/init.camera_process.rc': blob_fixup()
         .regex_replace('    delete_recursion', '    #delete_recursion'),
+    'odm/etc/libnfc-nci.conf': blob_fixup()
+        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     'odm/lib64/soundfx/libOplusSpatializerAidl.so': blob_fixup()
         .add_needed('libbase.so'),
     'odm/lib64/libAlgoProcess.so': blob_fixup()

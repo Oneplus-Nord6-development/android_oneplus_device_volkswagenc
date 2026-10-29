@@ -46,9 +46,11 @@ PRODUCT_PACKAGES += \
     OPlusWifiOverlayVolkswagenc
 
 # NFC
+PRODUCT_PACKAGES += \
+    NfcNci
+
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/nfc/libnfc-mtp-SN220.conf_24885:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_24885 \
-    $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
+    $(LOCAL_PATH)/configs/nfc/init.thn31.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.thn31.nfc.rc
 
 # Power
 $(call soong_config_set,qtipower,mode_ext_lib,power-ext-oplus)
